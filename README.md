@@ -18,5 +18,6 @@ limitations
 user guide
 -----------
 For example, to run the application with two ports served by 4 lcores, one lcore of RX, one lcore of TX for each port:
- kni -l 12-17 -n 4  -- -P -p 0x3 --config="(0,12,13),(1,15,16)"
+
+kni -l 12-17 -n 4  -- -P -p 0x3 --config="(0,12,13),(1,15,16)"
 
