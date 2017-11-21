@@ -5,8 +5,6 @@ The application is making use of DPDK kni and l3fwd sample apps.
 
 BW tests
 --------
-Setup is HP DL380 Gen9, 2x10G Intel ports (1 for client and 1 for server side).
-
 1. Linux basic IP forwaring feature - 8.5Gbps
 2. DPDK kni application  - 5.5Gbps
 3. ipwd-dpdk-linux-control application - line rate of 10Gbps
