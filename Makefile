@@ -44,7 +44,7 @@ please change the definition of the RTE_TARGET environment variable)
 endif
 
 # binary name
-APP = kni
+APP = ipfwd
 
 # all source are stored in SRCS-y
 SRCS-y := main.c
